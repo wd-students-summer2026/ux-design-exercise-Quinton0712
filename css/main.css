@@ -1,0 +1,48 @@
+/* place your CSS code here */
+p {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1rem;
+}
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+}
+div.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+a:link {color:blue;}
+a:visited {color:purple;}
+a:hover {background-color: navy; color:white;}
+a:active {color:red;}
+
+.styled-section {
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 2px solid grey;
+}
+
+#my_background {
+    background-color: beige;
+}
+
+#my_interests {
+    background-color: blanchedalmond;
+}
+
+#weightlifting {
+    background-color: burlywood;
+}
+
+section h2 {
+    color: darkblue;
+    font-size: 1.5rem;
+}
+/*Opacity change for scrollMagic*/
+#feast {
+    opacity: 0;
+    transition: opacity 5s;
+}
+/*End of scrollMagic change*/
